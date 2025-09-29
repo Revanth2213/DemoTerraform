@@ -241,7 +241,6 @@ resource "aws_security_group" "webserver-sg" {
     Name = "Web-SG"
   }
 }*/
-6
 # Create Application Security Group
 resource "aws_security_group" "appserver-sg" {
   name        = "appserver-SG"
